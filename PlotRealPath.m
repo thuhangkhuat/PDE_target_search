@@ -1,5 +1,5 @@
 
- H = imread('E:/Moving target search/Cam-search-target/PDEcam-search-target/x.tif'); % Get elevation data
+ H = imread('x.tif'); % Get elevation data
  H= H(1:800,1:800)/1000+1.9;
  MAPSIZE_X = size(H,2); % x index: columns of H
  MAPSIZE_Y = size(H,1); % y index: rows of H
@@ -21,7 +21,7 @@
  F = F/sum(F(:)); % normalize
  contour(X,Y,F,5,'r','LineWidth',1.5)
  %plot path
-Realpath = importdata('E:/Moving target search/Cam-search-target/PDEcam-search-target/DE_Path6.txt');
+Realpath = importdata('DE_Path6.txt');
 n = length(Realpath)/2;
 xf = Realpath(1:n);
 yf = Realpath(n+1:2*n);
