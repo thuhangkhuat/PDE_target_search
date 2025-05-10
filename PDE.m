@@ -22,7 +22,7 @@ VarMax.x=model.xmax;
 VarMin.y=model.ymin;           
 VarMax.y=model.ymax;         
 
-VarMax.r=3*model.v;           
+VarMax.r=2*model.v;           
 VarMin.r=0;
 
 % Inclination (elevation)
