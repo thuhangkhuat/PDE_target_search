@@ -34,7 +34,7 @@ VarMax.phi= AngleRange;
 
 MaxIt=5;          % Maximum Number of Iterations
 
-nPop=50;           % Population Size (Swarm Size)
+nPop=500;           % Population Size (Swarm Size)
 
 beta_min=0.1;   % Lower Bound of Scaling Factor
 beta_max=0.4;   % Upper Bound of Scaling Factor
