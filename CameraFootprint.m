@@ -10,8 +10,8 @@ w1 = 2*model.h*tan(model.alpha/2)/cos(model.phi-model.beta/2);
 w2 = 2*model.h*tan(model.alpha/2)/cos(model.phi+model.beta/2);
 
 % Define angles
-delta1 = atan(w1/(2*d1));
-delta2 = atan(w2/(2*d2));
+delta1 = atan2(w1/(2*d1));
+delta2 = atan2(w2/(2*d2));
 x = pos.x;
 y = pos.y;
 % Camera footprint
