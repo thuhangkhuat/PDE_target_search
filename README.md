@@ -2,7 +2,7 @@
 
 This repository presents the following article in MATLAB:
 
-Thu Hang Khuat, Duy-Nam Bui, Thuy Ngan Duong, Manh Duong Phung,  "**Polar Coordinate-based Differential Evolution for Moving Target Search Using Vision Sensor on Unmanned Aerial Vehicles**", 2025
+Thu Hang Khuat, Duy-Nam Bui, Thuy Ngan Duong, Manh Duong Phung,  "**Polar Coordinate-based Differential Evolution for Moving Target Search Using Vision Sensor on Unmanned Aerial Vehicles**", Intelligent Service Robotics, 2026
 
 ## Installation
 ```
@@ -22,16 +22,16 @@ Below are visualizations of the method for Scenario 1:
 | ![Scenario 1](scen1_init.png) | ![Search path ](scen1_2D.png) |
 |:---:|:---:|
 
-<!-- ## Citation
+## Citation
 ```
 @ARTICLE{10964594,
   author={Khuat, Thu Hang and Bui, Duy-Nam and Duong, Thuy Ngan and Phung, Manh Duong},
-  journal={Robotics and Autonomous Systems}, 
+  journal={Intelligent Service Robotics}, 
   title={Polar Coordinate-based Differential Evolution for Moving Target Search Using Vision Sensor on Unmanned Aerial Vehicles}, 
-  year={2025},
-  volume={},
-  number={},
-  pages={},
+  year={2026},
+  volume={19},
+  issue={7},
+  pages={77},
   keywords={Optimal search, unmanned aerial vehicles, differential evolution},
   doi={}}
-``` -->
+``` 
